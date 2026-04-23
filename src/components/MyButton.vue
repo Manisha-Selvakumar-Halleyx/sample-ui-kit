@@ -4,7 +4,7 @@
   </button>
 </template>
 
-<style>
+<style scoped>
 .btn {
   padding: 10px 16px;
   background: red;
