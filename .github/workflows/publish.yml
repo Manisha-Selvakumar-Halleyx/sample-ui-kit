@@ -13,31 +13,25 @@ permissions:
 
 jobs:
   release:
-    # ✅ Prevent duplicate runs
     if: >
       github.ref_type != 'tag' &&
-      !contains(github.event.head_commit.message, 'chore(release)')
+      (github.event.head_commit == null ||
+       !contains(github.event.head_commit.message, 'chore(release)'))
 
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
+      - uses: actions/setup-node@v4
         with:
           node-version: 22
           registry-url: https://registry.npmjs.org/
 
-      - name: Install dependencies
-        run: npm ci
+      - run: npm ci
+      - run: npm run build
 
-      - name: Build
-        run: npm run build
-
-      - name: Release
-        run: npx semantic-release
+      - run: npx semantic-release
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_VERSION_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
