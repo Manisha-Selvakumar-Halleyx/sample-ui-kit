@@ -9,14 +9,16 @@ export default defineConfig({
       name: "HalleyxUI",
       fileName: "halleyx-ui",
     },
+    cssCodeSplit: true, // ✅ REQUIRED
     rollupOptions: {
       external: ["vue"],
       output: {
-        exports: "named", // ✅ fixes MIXED_EXPORTS
+        exports: "named",
         globals: {
-          vue: "Vue", // ✅ fixes MISSING_GLOBAL_NAME
+          vue: "Vue",
         },
       },
     },
   },
 });
+``;

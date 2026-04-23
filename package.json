@@ -5,6 +5,7 @@
   "type": "module",
   "main": "./dist/halleyx-ui.umd.cjs",
   "module": "./dist/halleyx-ui.js",
+  "style": "./dist/index.css",
   "files": [
     "dist"
   ],
