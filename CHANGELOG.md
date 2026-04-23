@@ -1,3 +1,11 @@
+# [1.1.0](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.4...v1.1.0) (2026-04-23)
+
+
+### Features
+
+* add text box component issue fix ([d02bf8b](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/d02bf8bfc8ebbee242ac0beecc2a2be77b482748))
+* add textbox font size ([312423c](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/312423c6c63c5493df9584637d3d0b56b7dbd21b))
+
 ## [1.0.4](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.3...v1.0.4) (2026-04-23)
 
 
