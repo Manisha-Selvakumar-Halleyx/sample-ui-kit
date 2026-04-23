@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.1.2...v1.1.3) (2026-04-23)
+
+
+### Bug Fixes
+
+* add style file in package.json ([8af1414](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/8af14140e5c328548b40ec2e1b58d8a41cb38a95))
+
 ## [1.1.2](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.1.1...v1.1.2) (2026-04-23)
 
 
