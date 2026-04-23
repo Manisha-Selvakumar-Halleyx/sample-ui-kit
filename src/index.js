@@ -1,5 +1,5 @@
 import MyButton from "./components/MyButton.vue";
-import TextBox from "./components/TextBox.vue";
+import TextBox from "./components/MyTextBox.vue";
 
 const components = {
   MyButton,
