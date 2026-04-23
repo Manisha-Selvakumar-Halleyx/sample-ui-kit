@@ -13,11 +13,6 @@ permissions:
 
 jobs:
   release:
-    if: >
-      github.ref_type != 'tag' &&
-      (github.event.head_commit == null ||
-       !contains(github.event.head_commit.message, 'chore(release)'))
-
     runs-on: ubuntu-latest
 
     steps:
@@ -35,4 +30,3 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_VERSION_TOKEN }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          
