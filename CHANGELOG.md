@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.0...v1.0.1) (2026-04-23)
+
+
+### Bug Fixes
+
+* button alignment ([1a6e21d](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/1a6e21d72168fd70e3d2fbb4d325b3b7e3b1451c))
+
 # 1.0.0 (2026-04-23)
 
 
