@@ -7,7 +7,7 @@
 <style>
 .btn {
   padding: 10px 16px;
-  background: #3b82f6;
+  background: red;
   color: white;
   border-radius: 6px;
 }
