@@ -1,6 +1,6 @@
 {
   "name": "@manisha-s/sample-lib",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Vue 3 component library",
   "type": "module",
   "main": "./dist/halleyx-ui.umd.cjs",
