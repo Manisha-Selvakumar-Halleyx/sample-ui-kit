@@ -1,12 +1,14 @@
 <template>
-  <button class="btn"></button>
+  <button class="btn">
+    <slot />
+  </button>
 </template>
 
 <style>
 .btn {
-  padding: 16px 16px;
+  padding: 10px 16px;
   background: #3b82f6;
   color: white;
-  border-radius: 8px;
+  border-radius: 6px;
 }
 </style>
