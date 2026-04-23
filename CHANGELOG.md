@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.1.1...v1.1.2) (2026-04-23)
+
+
+### Bug Fixes
+
+* button css fixed ([40d4eeb](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/40d4eeb256fcda6f9b71639275fe03958f27650a))
+
 ## [1.1.1](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.1.0...v1.1.1) (2026-04-23)
 
 
