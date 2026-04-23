@@ -16,7 +16,7 @@ const props = withDefaults(defineProps<Props>(), {
   placeholder: "",
   type: "text",
   disabled: false,
-  error: ""
+  error: "",
 });
 
 const emit = defineEmits<{
@@ -25,7 +25,7 @@ const emit = defineEmits<{
 
 const value = computed({
   get: () => props.modelValue,
-  set: (val: string) => emit("update:modelValue", val)
+  set: (val: string) => emit("update:modelValue", val),
 });
 </script>
 
@@ -81,7 +81,7 @@ const value = computed({
 }
 
 .textbox-error {
-  font-size: 12px;
+  font-size: 13px;
   color: #e53935;
 }
 </style>
