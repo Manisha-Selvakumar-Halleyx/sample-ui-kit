@@ -1,9 +1,17 @@
 import MyButton from "./components/MyButton.vue";
+import TextBox from "./components/TextBox.vue";
 
-export { MyButton };
+const components = {
+  MyButton,
+  TextBox,
+};
+
+export { MyButton, TextBox };
 
 export default {
   install(app) {
-    app.component("MyButton", MyButton);
+    Object.entries(components).forEach(([name, component]) => {
+      app.component(name, component);
+    });
   },
 };
