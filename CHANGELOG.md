@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.3...v1.0.4) (2026-04-23)
+
+
+### Bug Fixes
+
+* Button radius fix ([624a3e0](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/624a3e0f839752fdc4838da8e33d5ca3e9402f8f))
+
 ## [1.0.3](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.2...v1.0.3) (2026-04-23)
 
 
