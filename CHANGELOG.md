@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.2...v1.0.3) (2026-04-23)
+
+
+### Bug Fixes
+
+* minor button hover issue ([00c2cbf](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/00c2cbfb8d64f89706af4f8b0e12ba460c56397d))
+
 ## [1.0.2](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.0.1...v1.0.2) (2026-04-23)
 
 
