@@ -7,7 +7,7 @@
 <style scoped>
 .btn {
   padding: 10px 16px;
-  background: blue;
+  background: red;
   color: white;
   border-radius: 6px;
 }
