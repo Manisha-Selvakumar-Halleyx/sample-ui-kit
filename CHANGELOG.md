@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.1.4...v1.1.5) (2026-04-29)
+
+
+### Bug Fixes
+
+* button color fix ([f292093](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/commit/f2920937e949b6dd5b77b2fe0fbbe0630cf221b4))
+
 ## [1.1.4](https://github.com/Manisha-Selvakumar-Halleyx/sample-ui-kit/compare/v1.1.3...v1.1.4) (2026-04-23)
 
 
